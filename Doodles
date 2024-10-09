@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Doodles</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff; /* Light background color */
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute font */
+            margin: 0; /* Remove default margin */
+        }
+        .love-text {
+            color: #ff69b4; /* Pink color for text */
+            font-size: 36px; /* Larger font size */
+            text-align: center; /* Center the text */
+            padding: 20px; /* Padding around the text */
+            border: 2px solid #ff69b4; /* Border color */
+            border-radius: 15px; /* Rounded corners */
+            background-color: rgba(255, 105, 180, 0.2); /* Light pink background */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="love-text" id="message"></div> <!-- Div to display the message -->
+
+    <script>
+        // JavaScript to display the message
+        document.getElementById('message').innerText = "How much I love Doodles";
+    </script>
+
+</body>
+</html>
